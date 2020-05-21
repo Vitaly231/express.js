@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b661f99b-86ea-483d-8402-a542c09efb7c" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectId" id="1bdf8tnkC2ejsKKRxHkVHSJqvcg" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="14.2.0" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/views" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\furso\YandexDisk\express\views\auth" />
+      <recent name="C:\Users\furso\YandexDisk\express" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Node.js.bin\www">
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.dev" />
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b661f99b-86ea-483d-8402-a542c09efb7c" name="Default Changelist" comment="" />
+      <created>1588966734598</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588966734598</updated>
+      <workItem from="1588966736204" duration="1376000" />
+      <workItem from="1589132288779" duration="57020000" />
+      <workItem from="1589476338816" duration="36284000" />
+      <workItem from="1589730971768" duration="6873000" />
+      <workItem from="1589744076877" duration="6276000" />
+      <workItem from="1589781184208" duration="3357000" />
+      <workItem from="1589792767513" duration="3828000" />
+      <workItem from="1589797846280" duration="5099000" />
+      <workItem from="1589827545227" duration="604000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="403" y="142" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589146485985">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="403" y="142" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1589146485985" />
+    <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1589145013360">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1589145013360" />
+    <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1589793530675">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1589793530675" />
+    <state width="1259" height="95" key="GridCell.Tab.0.bottom" timestamp="1589817723653">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="95" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1589817723653" />
+    <state width="1259" height="95" key="GridCell.Tab.0.center" timestamp="1589817723653">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="95" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1589817723653" />
+    <state width="1259" height="95" key="GridCell.Tab.0.left" timestamp="1589817723652">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="95" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1589817723652" />
+    <state width="1259" height="95" key="GridCell.Tab.0.right" timestamp="1589817723653">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="95" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1589817723653" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1588967675414">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1588967675414" />
+    <state x="297" y="151" width="672" height="677" key="run.anything.popup" timestamp="1589802674364">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="297" y="151" width="672" height="677" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1589802674364" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1589803074185">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1589803074185" />
+  </component>
+</project>

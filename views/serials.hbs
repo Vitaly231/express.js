@@ -1,0 +1,28 @@
+<h1>Дата выхода сериалов</h1>
+
+{{#if error}}
+<p class="alert">{{error}}</p>
+{{/if}}
+
+<div class="row">
+    <form action="/serials" method="post" novalidate>
+            <div class="input-field">
+                <input id="title" name="title" type="text" class="validate" value="{{data.title}}" required>
+                <label for="title">Название сериала</label>
+                <span class="helper-text" data-error="Введите название сериала"></span>
+            </div>
+        <div class="input-field">
+            <input id="voice_acting" name="voice_acting" type="text" class="validate" value="{{data.voice_acting}}" required>
+            <label for="voice_acting">Озвучка</label>
+            <span class="helper-text" data-error="Введите название озвучки"></span>
+        </div>
+        <div class="input-field">
+            <input id="img" name="img" type="text" class="validate" value="{{data.img}}" required>
+            <label for="img">URL логотипа</label>
+        </div>
+
+        <input type="hidden" name="_csrf" value="{{csrf}}">
+
+        <button class="btn btn-primary">Добавить</button>
+    </form>
+</div>

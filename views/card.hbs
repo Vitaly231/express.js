@@ -1,0 +1,34 @@
+<h1>Корзина</h1>
+
+<div id="card">
+{{#if serials.length}}
+<table>
+    <thead>
+    <tr>
+        <th>Название курса</th>
+        <th>Количество</th>
+        <th>Действия</th>
+    </tr>
+    </thead>
+    <tbody>
+    {{#each serials}}
+    <tr>
+        <td>{{title}}</td>
+        <td>{{count}}</td>
+        <td><button class="btn btn-small js-remove" data-id="{{id}}" data-csrf="{{@root.csrf}}">Удалить</button></td>
+    </tr>
+    {{/each}}
+    </tbody>
+</table>
+    <p><strong>Цена:</strong><span class="voice_acting"> {{voice_acting}}</span></p>
+
+    <form action="/orders" method="post">
+
+        <input type="hidden" name="_csrf" value="{{csrf}}">
+
+    <button type="submit" class="btn">Оформить</button>
+    </form>
+{{else}}
+<p>Корзина пуста</p>
+{{/if}}
+</div>

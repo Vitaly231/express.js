@@ -1,0 +1,50 @@
+<nav>
+    <div class="nav-wrapper">
+        <a href="/" class="brand-logo">HALISKO</a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+            {{#if isHome}}
+                <li class="active"><a href="/">Главная страница</a></li>
+            {{else}}
+                <li><a href="/">Главная страница</a></li>
+            {{/if}}
+            {{#if isNews}}
+                <li class="active"><a href="/news">События в мире</a></li>
+            {{else}}
+                <li><a href="/news">События в мире</a></li>
+            {{/if}}
+
+            {{#if isAuth}}
+                {{#if isSerials}}
+                    <li class="active"><a href="/serials">Сериалы</a></li>
+                {{else}}
+                    <li><a href="/serials">Сериалы</a></li>
+                {{/if}}
+
+                {{#if isProfile}}
+                    <li class="active"><a href="/profile">Профиль</a></li>
+                {{else}}
+                    <li><a href="/profile">Профиль</a></li>
+                {{/if}}
+
+                {{#if isCard}}
+                    <li class="active"><a href="/card">Корзина</a></li>
+                {{else}}
+                    <li><a href="/card">Корзина</a></li>
+                {{/if}}
+                {{#if isOrders}}
+                    <li class="active"><a href="/orders">Заказы</a></li>
+                {{else}}
+                    <li><a href="/orders">Заказы</a></li>
+                {{/if}}
+                <li><a href="/auth/logout">Выйти</a></li>
+            {{else}}
+                {{#if isLogin}}
+                    <li class="active"><a href="/auth/login#login">Войти</a></li>
+                {{else}}
+                    <li><a href="/auth/login#login">Войти</a></li>
+
+                {{/if}}
+            {{/if}}
+        </ul>
+    </div>
+</nav>

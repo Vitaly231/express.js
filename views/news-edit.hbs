@@ -1,0 +1,34 @@
+
+
+<h1>Редактировать {{film.title}}</h1>
+
+<div class="row">
+    <form action="/news/edit" method="post">
+        <div class="input-field">
+            <input id="title" name="title" type="text" class="validate" required value="{{film.title}}">
+            <label for="title">Название сериала</label>
+            <span class="helper-text" data-error="Введите название сериала"></span>
+        </div>
+        <div class="input-field">
+            <input id="voice_acting" name="voice_acting" type="text" class="validate" required value="{{film.voice_acting}}">
+            <label for="voice_acting">Озвучка</label>
+            <span class="helper-text" data-error="Введите название озвучки"></span>
+        </div>
+        <div class="input-field">
+            <input id="img" name="img" type="text" class="validate" value="{{film.img}}" required >
+            <label for="img">URL логотипа</label>
+        </div>
+        <input type="hidden" name="id" value="{{film._id}}">
+
+        <input type="hidden" name="_csrf" value="{{csrf}}">
+
+        <button type="submit" class="btn btn-primary">Редактировать</button>
+    </form>
+    <form action="/news/remove" method="post">
+        <input type="hidden" name="id" value="{{film._id}}">
+
+        <input type="hidden" name="_csrf" value="{{csrf}}">
+
+        <button type="submit" class="btn red">Удалить</button>
+    </form>
+</div>

@@ -1,0 +1,32 @@
+<h1>Мои заказы</h1>
+
+{{#if orders.length}}
+    {{#each orders}}
+        <div class="row">
+            <div class="col s6 offset-s3">
+                <div class="card">
+                    <div class="card-content">
+                       <span class="card-title">
+                            Заказ <small>{{_id}}</small>
+                       </span>
+                        <p>
+                            <p class="date">{{date}}</p>
+                        </p>
+                        <p><em>{{user.userId.name}}</em> {{user.userId.email}}</p>
+                        <ol>
+                            {{#each serials}}
+                                <li>
+                                    {{film.title}}(x <strong>{{count}}</strong>)
+                                </li>
+                            {{/each}}
+                        </ol>
+                        <hr>
+                        <p>Цена: <span class="voice_acting">{{voice_acting}} </span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    {{/each}}
+{{else}}
+    <p>Заказов пока нет </p>
+{{/if}}
