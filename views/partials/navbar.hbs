@@ -1,50 +1,80 @@
-<nav>
-    <div class="nav-wrapper">
-        <a href="/" class="brand-logo">HALISKO</a>
-        <ul id="nav-mobile" class="right hide-on-med-and-down">
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+
+    <a class="navbar-brand" href="#">HALISKO</a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+            aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="navbar-nav mr-auto">
             {{#if isHome}}
-                <li class="active"><a href="/">Главная страница</a></li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="/">Главная страница<span class="sr-only">(current)</span></a>
+                </li>
             {{else}}
-                <li><a href="/">Главная страница</a></li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/">Главная страница</a>
+                </li>
             {{/if}}
             {{#if isNews}}
-                <li class="active"><a href="/news">События в мире</a></li>
+            <li class="nav-item active">
+                <a class="nav-link" href="/news">Фильмы<span class="sr-only">(current)</span></a>
             {{else}}
-                <li><a href="/news">События в мире</a></li>
+            <li class="nav-item">
+                <a class="nav-link" href="/news">Фильмы</a>
             {{/if}}
-
             {{#if isAuth}}
                 {{#if isSerials}}
-                    <li class="active"><a href="/serials">Сериалы</a></li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/serials">Добавить фильм</a>
+                    </li>
                 {{else}}
-                    <li><a href="/serials">Сериалы</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/serials">Добавить фильм</a>
+                    </li>
                 {{/if}}
-
                 {{#if isProfile}}
-                    <li class="active"><a href="/profile">Профиль</a></li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/profile">Профиль</a>
+                    </li>
                 {{else}}
-                    <li><a href="/profile">Профиль</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/profile">Профиль</a>
+                    </li>
                 {{/if}}
-
                 {{#if isCard}}
-                    <li class="active"><a href="/card">Корзина</a></li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/card">Корзина</a>
+                    </li>
                 {{else}}
-                    <li><a href="/card">Корзина</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/card">Корзина</a>
+                    </li>
                 {{/if}}
                 {{#if isOrders}}
-                    <li class="active"><a href="/orders">Заказы</a></li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/orders">Заказы</a>
+                    </li>
                 {{else}}
-                    <li><a href="/orders">Заказы</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/orders">Заказы</a>
+                    </li>
                 {{/if}}
-                <li><a href="/auth/logout">Выйти</a></li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/auth/logout">Выйти</a>
+                </li>
             {{else}}
                 {{#if isLogin}}
-                    <li class="active"><a href="/auth/login#login">Войти</a></li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/auth/login">Войти</a>
+                    </li>
                 {{else}}
-                    <li><a href="/auth/login#login">Войти</a></li>
-
+                    <li class="nav-item">
+                        <a class="nav-link" href="/auth/login">Войти</a>
+                    </li>
                 {{/if}}
             {{/if}}
-        </ul>
+        </div>
     </div>
 </nav>
